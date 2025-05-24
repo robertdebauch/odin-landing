@@ -9,7 +9,8 @@ html, body {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    
+    font-family: Roboto, sans-serif;
     background-color: white;
     color: #1f2937;
 }
@@ -35,7 +36,7 @@ img {
 }
 
 .header a {
-    font-weight: light;
+    font-weight: lighter;
     text-decoration: none;
 
     padding-left: 1.5rem;
@@ -53,6 +54,7 @@ img {
 
 nav ul {
     display: flex;
+    margin-top: 2px;
 }
 
 /* hero */
@@ -85,7 +87,7 @@ nav ul {
 .hero .hero-container {
     max-width: 1200px;
     margin: 0 auto 0 auto;
-    padding: 6rem 2rem 8rem 2rem; /* too much? */
+    padding: 6rem 2rem 8rem 2rem; 
 
     display: flex;
     flex-wrap: wrap;
@@ -232,4 +234,8 @@ nav ul {
 .footer {
     color: #F9FAF8;
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
